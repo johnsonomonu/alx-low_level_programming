@@ -12,32 +12,39 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
 
-{
+int main(void) {
 
-	int n;
-
+	  int n, m;
 
 
-	srand(time(0));
 
-	n = rand() - RAND_MAX / 2;
+	    for (n = 48; n <= 56; n++) {
 
-	printf("Last digit of %d is %d ", n, n % 10);
+		        for (m = 49; m <= 57; m++) {
 
-	if (n % 10 > 5)
+				      if (m > n) {
 
-		printf("and is greater than 5\n");
+					              putchar(n);
 
-	else if (n % 10 == 0)
+						              putchar(m);
 
-		printf("and is 0\n");
+							              if (n != 56 || m != 57) {
 
-	else if (n % 10 < 6 && n % 10 != 0)
+									                putchar(',');
 
-		printf("and is less than 6 and not 0\n");
+											          putchar(' ');
 
-	return (0);
+												          }
+
+								            }
+
+				          }
+
+			  }
+
+	      putchar('\n');
+
+	        return (0);
 
 }
