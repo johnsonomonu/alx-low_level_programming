@@ -9,42 +9,49 @@
 /**
  * main - prints the last digit of the random
  * number stored in the variable n
- * Return: Always 0 (Success)
+ * Return: Always 0 }
  */
 
+int main(void)
 
-int main(void) {
+{
 
-	  int n, m;
+	int n, m;
 
 
 
-	    for (n = 48; n <= 56; n++) {
+	for (n = 48; n <= 56; n++)
 
-		        for (m = 49; m <= 57; m++) {
+	{
 
-				      if (m > n) {
+		for (m = 49; m <= 57; m++)
 
-					              putchar(n);
+		{
 
-						              putchar(m);
+			if (m > n)
 
-							              if (n != 56 || m != 57) {
+			{
 
-									                putchar(',');
+				putchar(n);
 
-											          putchar(' ');
+				putchar(m);
 
-												          }
+				if (n != 56 || m != 57)
 
-								            }
+				{
 
-				          }
+					putchar(',');
+
+				}
+
+			}
 
 			  }
 
-	      putchar('\n');
+	}
 
-	        return (0);
+	putchar('\n');
+
+	return (0);
 
 }
