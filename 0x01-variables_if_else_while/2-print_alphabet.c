@@ -4,17 +4,24 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-
 int main(void)
-{
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
 
 {
 
-putchar(ch);
-}
-putchar('\n');
+		char ch;
 
-return (0);
+
+
+			for (ch = 'a'; ch <= 'z'; ch++)
+
+					{
+
+								putchar(ch);
+
+									}
+
+				putchar('\n');
+
+					return (0);
+
 }
