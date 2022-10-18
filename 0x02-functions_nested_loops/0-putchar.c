@@ -3,8 +3,8 @@
 
 
 /**
- * main -  prints _putchar, followed by a new line
- * Return: Always 0 (Success)
+ * main - prints putchar
+ * Return: always 0
  */
 
 int main(void)
